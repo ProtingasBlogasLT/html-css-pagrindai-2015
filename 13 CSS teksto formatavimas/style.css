@@ -1,0 +1,42 @@
+/* Šrifto importavimas iš išorinio šaltinio */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+/* Šrifto, esančio vidiniuose puslapio failuose importavimas
+ir nustatymas */
+@font-face {
+	font-family: "Sriftas";
+	src: url("Mf Kazincbarcika.ttf");
+}
+
+/* "Saugių" šriftų naudojimas */
+#pirmas { font-family: Impact, Charcoal, sans-serif; }
+
+/* Šrifto, kuris buvo importuotas iš išorinio šaltinio
+naudojimas */
+#antras { font-family: 'Open Sans', sans-serif; }
+
+/* Šrifto, kuris buvo importuotas iš vidinių puslapio failų
+ir nustatytas, panaudojimas */
+#trecias { font-family: "Sriftas"; }
+
+/* Įvairūs šriftų stiliai */
+#ketvirtas {
+	/* Gali būti normal, italic, oblique */
+	font-style: italic;
+
+	/* Galima naudoti px, em, % */
+	font-size: 1.5em;
+
+	/* Galima naudoti: normal, bold, bolder, lighter, skaičių,
+	initial (numatytoji reikšmė),
+	inherit (paveldės iš tėvinio elemento) */
+	font-weight: bold;
+}
+
+#penktas {
+	/* Galima naudoti: left, center, right, justify */
+	text-align: justify;
+
+	/* Galima naudoti: uppercase, lowercase, capitalize */
+	text-transform: uppercase;
+}

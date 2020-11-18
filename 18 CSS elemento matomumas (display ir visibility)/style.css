@@ -1,0 +1,12 @@
+ul li { display: inline; }
+a { display: block; }
+
+div {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	margin: 10px;
+}
+
+#pirmas { visibility: hidden; }
+#divas { display: none; }

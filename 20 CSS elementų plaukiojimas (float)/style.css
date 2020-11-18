@@ -1,0 +1,22 @@
+#turinys {
+	background-color: #85C7FF;
+	/*height: 150px;*/
+	overflow: auto;
+}
+
+#kairej {
+	width: 100px;
+	float: left;
+	background-color: #BA8B8B;
+}
+
+#desinej {
+	width: 200px;
+	float: right;
+	background-color: #D19DF5;
+}
+
+footer {
+	background-color: #84FF7E;
+	/*clear: both;*/
+}

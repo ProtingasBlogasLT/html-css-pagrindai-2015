@@ -1,0 +1,53 @@
+@keyframes animacija1 {
+	from {
+		background-color: blue;
+		width: 200px;
+		height: 100px;
+	}
+	to {
+		background-color: green;
+		width: 300px;
+		height: 150px;
+	}
+}
+
+@keyframes animacija2 {
+	0% {
+		background-color: blue;
+		width: 200px;
+		height: 100px;
+	}
+	80% {
+		background-color: green;
+		width: 300px;
+		height: 150px;
+	}
+	100% {
+		background-color: red;
+		width: 50px;
+		height: 80px;
+	}
+}
+
+div {
+	margin: 100px;
+}
+
+#id1 {
+	/*animation-name: animacija1;
+	animation-duration: 3s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-out;*/
+
+	animation: animacija1 3s infinite alternate ease-out;
+	-webkit-animation: animacija1 3s infinite alternate ease-out;
+	-moz-animation: animacija1 3s infinite alternate ease-out;
+}
+
+#id2 {
+	animation: animacija2 3s infinite alternate ease-out;
+	-webkit-animation: animacija2 3s infinite alternate ease-out;
+	-moz-animation: animacija2 3s infinite alternate ease-out;
+}

@@ -1,0 +1,18 @@
+/* HTML žymos selektorius */
+
+a {
+	color: red;
+	font-family: "Calibri";
+	background-color: black;
+	padding: 5px;
+	border: 2px solid red;
+	text-decoration: none;
+}
+
+/* HTML žymos būsenos selektorius*/
+
+a:hover {
+	background-color: silver;
+	color: black;
+	border-color: black;
+}

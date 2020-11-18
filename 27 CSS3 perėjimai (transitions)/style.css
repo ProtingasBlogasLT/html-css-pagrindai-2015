@@ -1,0 +1,22 @@
+div {
+	background-color: #9600FF;
+	width: 200px;
+	height: 200px;
+	margin: 100px auto;
+
+	/*transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+	transition-delay: 1s;*/
+
+	transition: all 1s linear 1s;
+
+	/* naršyklių palaikymui */
+	-webkit-transition: all 1s linear 1s;
+	-moz-transition: all 1s linear 1s;
+	-o-transition: all 1s linear 1s;
+}
+
+div:hover {
+	box-shadow: 20px 20px 5px #3C3C3C;
+}

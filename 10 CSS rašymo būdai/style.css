@@ -1,0 +1,15 @@
+.klase {
+	background-color: black;
+}
+
+div {
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+}
+
+/*
+#kazkas - html žyma su id
+.kazkas - html žyma su klase
+div - pati html žyma
+*/

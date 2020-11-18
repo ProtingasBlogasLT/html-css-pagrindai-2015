@@ -1,0 +1,23 @@
+body { background-color: black; }
+
+div {
+	height: 50px;
+	text-align: center;
+}
+
+#hex { background-color: #fff941; }
+
+#rgb { background-color: rgb(255,0,0); }
+
+#paprastai { background-color: green; }
+
+#rgba { background-color: rgba(255,0,0, 0.5); }
+
+#hsl { background-color: hsl(120, 100%, 50%); }
+
+#hsla { background-color: hsla(120, 100%, 50%, 0.7); }
+
+#atskirai {
+	background-color: white;
+	opacity: 0.4;
+}

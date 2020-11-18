@@ -1,0 +1,37 @@
+div {
+	width: 800px;
+	height: 300px;
+	margin: 20px auto;
+	text-align: center;
+	font-size: 3em;
+	line-height: 300px;
+	font-family: Calibri;
+}
+
+div:nth-child(1) {
+	background: linear-gradient(yellow, green);
+	background: -webkit-linear-gradient(yellow, green);
+	background: -moz-linear-gradient(yellow, green);
+	background: -o-linear-gradient(yellow, green);
+}
+
+div:nth-child(2) {
+	background: linear-gradient(60deg, red, yellow, green);
+	background: -webkit-linear-gradient(60deg, red, yellow, green);
+	background: -moz-linear-gradient(60deg, red, yellow, green);
+	background: -o-linear-gradient(60deg, red, yellow, green);
+}
+
+div:nth-child(3) {
+	background: repeating-linear-gradient(red, yellow 20%, green 10%);
+	background: -webkit-repeating-linear-gradient(red, yellow 20%, green 10%);
+	background: -moz-repeating-linear-gradient(red, yellow 20%, green 10%);
+	background: -o-repeating-linear-gradient(red, yellow 20%, green 10%);
+}
+
+div:nth-child(4) {
+	background: radial-gradient(yellow 60%, red, blue);
+	background: -webkit-radial-gradient(yellow 60%, red, blue);
+	background: -moz-radial-gradient(yellow 60%, red, blue);
+	background: -o-radial-gradient(yellow 60%, red, blue);
+}

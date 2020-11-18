@@ -1,0 +1,19 @@
+div {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+}
+
+#div1 { background-color: #FF8F8F; }
+#div2 { background-color: #B490C2; }
+#div3 { background-color: #78E16D; }
+#div4 { background-color: #EFB823; }
+#div5 { background-color: #4A2C2C; }
+
+#parent { position: relative; }
+
+#div2 {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}

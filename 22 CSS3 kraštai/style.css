@@ -1,0 +1,28 @@
+div {
+	background-color: #79ED70;
+	width: 300px;
+	height: 100px;
+	margin: 50px;
+	padding: 50px;
+}
+
+#pirmas {
+	border: 20px solid #43AC3B;
+
+	/* border-top-left-radius
+	border-top-right-radius
+	border-bottom-right-radius
+	border-bottom-left-radius */
+	border-radius: 200px 500px;
+}
+
+#antras {
+/*	border-image-source: url("border.png");
+	border-image-slice: 28;
+	border-image-width: 20px;
+	border-image-outset: 10px;
+	border-image-repeat: round;*/
+
+	border: 20px solid transparent;
+	border-image: url("border.png") 28 round;
+}

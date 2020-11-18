@@ -1,0 +1,14 @@
+body {
+	/*background-color: #646464;*/
+	/*background-image: url("imgs/tiled.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right top;*/
+	/*background-position: 50% 80%;*/
+	/*background-position: 200px 50px;*/
+	background: url("imgs/tiled.jpg") repeat-y fixed center;
+}
+
+div {
+	height: 1000px;
+}

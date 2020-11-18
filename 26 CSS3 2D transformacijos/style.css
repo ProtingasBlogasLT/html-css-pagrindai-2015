@@ -1,0 +1,21 @@
+div {
+	background-color: #016DFF;
+	width: 200px;
+	height: 200px;
+	margin: 100px;
+	float: left;
+}
+
+#id1 {
+	transform: translate(50px, 20px);
+
+	/* naršyklių palaikymui reikalingi dalykai */
+	-webkit-transform: translate(50px, 20px);
+	-moz-transform: translate(50px, 20px);
+	-ms-transform: translate(50px, 20px);
+}
+
+#id2 { transform: rotate(45deg); }
+#id3 { transform: scale(1.2, 1.5); }
+#id4 { transform: skew(0.7rad, 10deg); }
+#id5 { transform: rotate(20deg) scaleY(1.8) translateX(100px); }

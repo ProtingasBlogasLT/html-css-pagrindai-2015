@@ -1,0 +1,27 @@
+ul li {
+	/*list-style-image: url("img.jpg");*/
+
+	/*list-style-position: inside;
+	border: 1px solid red;*/
+
+	/*list-style-type: lower-greek;*/
+
+	list-style: lower-roman inside;
+}
+
+table, th {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 400px;
+	height: 35px;
+	text-align: right;
+	vertical-align: top;
+	padding: 5px;
+}
+
+/* Pirmojo tr elemento selektorius */
+
+tr:first-child {
+	background-color: green;
+	color: white;
+}

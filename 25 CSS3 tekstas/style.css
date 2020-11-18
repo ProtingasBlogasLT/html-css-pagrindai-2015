@@ -1,0 +1,21 @@
+div,
+p {
+	width: 200px;
+	border: 1px solid black;
+}
+
+div {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis; /* clip */
+}
+
+div:hover {
+	white-space: normal;
+	overflow: visible;
+}
+
+p {
+	/*word-break: break-all;*/ /* keep-all */
+	word-wrap: break-word;
+}

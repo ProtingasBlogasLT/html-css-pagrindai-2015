@@ -1,0 +1,41 @@
+header {
+	background-color: #1E1E1E;
+	color: #DFDFDF;
+	padding: 10px;
+}
+
+nav {
+	color: #EFEFEF;
+	background-color: #525252;
+	padding: 5px;
+}
+
+nav ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+section {
+	overflow: auto;
+	background-color: #CACACA;
+}
+
+article,
+aside {
+	background-color: white;
+}
+
+#articles {
+	width: 70%;
+	float: left;
+}
+
+aside {
+	width: 20%;
+	float: right;
+}
+
+footer {
+	background-color: #DFDDDD;
+	padding: 5px;
+}
